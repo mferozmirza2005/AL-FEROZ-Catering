@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400;700&family=Righteous&display=swap");
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+#menuMainIntro {
+  background-image: url(../images/spicy-mutton-tikka-biryani_11895.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  background-size: cover;
+  flex-direction: column;
+  height: 88.2vh;
+  display: flex;
+  width: 100%;
+}
+
+.MMItxt {
+  background-color: #957753ce;
+  margin-left: 7%;
+  width: 60%;
+}
+
+.MMItxt h1 {
+  padding: 30px 30px 20px;
+  color: #3f2506;
+}
+
+.MMItxt p {
+  padding: 0px 30px 30px;
+  font-weight: bold;
+  color: #6b410e;
+  font-size: 20px;
+}
+
+#orderSuccess {
+  justify-content: space-between;
+  background-color: #033a1c;
+  align-items: center;
+  padding: 20px 25px;
+  color: white;
+  display: none;
+}
+
+#orderSuccessBTN {
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+#mainMenu {
+  background: linear-gradient(-45deg, rgb(59, 59, 59) 20%, rgb(31, 31, 31) 50%);
+  padding: 20px 0;
+  width: 100%;
+}
+
+#mainMenu .menuHead {
+  font-family: "Righteous", cursive;
+  justify-content: center;
+  padding: 20px 0px;
+  display: flex;
+  width: 100%;
+}
+
+#mainMenu .menuHead h1 {
+  border-bottom: 12px double #6b410e;
+  padding-bottom: 5px;
+  color: #6b410e;
+}
+
+.menuItem {
+  background-color: #3f2506;
+  border-radius: 15px;
+  margin: 30px auto;
+  display: flex;
+  padding: 10px;
+  width: 90%;
+}
+
+.menuItem .menuItemImg {
+  position: relative;
+  height: 100%;
+  width: 25%;
+}
+
+.menuItem .menuItemImg img {
+  border-radius: 12px;
+  min-height: 157px;
+  height: 100%;
+  width: 100%;
+}
+
+.menuItem .menuItemImg i {
+  margin: 10px 0px 0px 10px;
+  position: absolute;
+  color: #bd173c;
+  cursor: pointer;
+  font-size: 35px;
+  left: 0;
+  top: 0;
+}
+
+.menuItem .menuItemTxt {
+  height: 100%;
+  width: 75%;
+}
+
+.menuItem .menuItemTxt h2 {
+  margin: 0 0 20px 30px;
+  color: #957753;
+}
+
+.menuItem .menuItemTxt .rating {
+  margin: 0 0 30px 30px;
+  align-items: center;
+  color: #a05f10;
+  font-size: 24px;
+  display: flex;
+}
+
+.menuItem .menuItemTxt .rating .fas.fa-star {
+  padding-left: 2px;
+  font-size: 20px;
+  color: gold;
+}
+
+.menuItem .menuItemTxt .menuItemAdd {
+  justify-content: space-between;
+  margin: 0 0 10px 30px;
+  display: flex;
+  width: 100%;
+}
+
+.menuItem .menuItemTxt .menuItemAdd p {
+  font-size: 14px;
+  color: gray;
+}
+
+.menuItem .menuItemTxt .menuItemAdd button {
+  border: 1px solid transparent;
+  background-color: #957753;
+  margin-right: 30px;
+  border-radius: 5px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  outline: none;
+}
+
+.menuItem .menuItemTxt .menuItemAdd button:hover {
+  background-color: transparent;
+  border-color: #957753;
+  color: #957753;
+}
+
+#SeasonMenu {
+  background-color: white;
+  padding: 20px 0;
+  width: 100%;
+}
+
+#SeasonMenu .SMenuHead {
+  font-family: "Righteous", cursive;
+  justify-content: center;
+  padding: 20px 0px;
+  display: flex;
+  width: 100%;
+}
+
+#SeasonMenu .SMenuHead h1 {
+  border-bottom: 12px double #957753;
+  padding-bottom: 5px;
+  color: #957753;
+}
+
+#SeasonMenuItems {
+  text-align: center;
+}
+
+#SeasonMenuItems .SmenuItem {
+  box-shadow: black 0px 0px 5px;
+  background-color: #3f2506;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 10px;
+  width: 30%;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemImg {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 2px;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemImg img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 100%;
+  width: 99%;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemImg i {
+  margin: 10px 0px 0px 10px;
+  position: absolute;
+  color: #bd173c;
+  cursor: pointer;
+  font-size: 35px;
+  left: 0;
+  top: 0;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemTxt h2 {
+  margin: 10px 0 10px 10px;
+  text-align: left;
+  color: #957753;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemTxt .rating {
+  margin: 0 0 0px 10px;
+  align-items: center;
+  color: #a05f10;
+  font-size: 18px;
+  display: flex;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemTxt .rating .fas.fa-star {
+  padding-left: 2px;
+  font-size: 20px;
+  color: gold;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemTxt .SmenuItemAdd {
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 10px auto 20px;
+  display: flex;
+  width: 90%;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemTxt .SmenuItemAdd p {
+  font-size: 14px;
+  color: gray;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemTxt .SmenuItemAdd button {
+  border: 1px solid transparent;
+  background-color: #957753;
+  border-radius: 5px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  outline: none;
+}
+
+#SeasonMenuItems .SmenuItem .SmenuItemTxt .SmenuItemAdd button:hover {
+  background-color: transparent;
+  border-color: #957753;
+  color: #957753;
+}
