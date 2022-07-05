@@ -212,7 +212,7 @@ function footer() {
     var child1Link1 = document.createElement("a");
     child1Link1.href = "https://api.whatsapp.com/send/?phone=923180202325";
     var child1Link2 = document.createElement("a");
-    child1Link2.href = "";
+    child1Link2.href = "https://www.facebook.com/Al-Feroz-Catering-107634975165501";
     
     var child2Link1 = document.createElement("a");
     child2Link1.href = "/";
@@ -237,7 +237,7 @@ function footer() {
     var child3TXTNode = document.createTextNode("Copyright© by ");
 
     var child3TXTchild = document.createElement("span");
-    var child3TXTchildtxt = document.createTextNode("AL-Feroz Develops");
+    var child3TXTchildtxt = document.createTextNode("AL-Feroz Developers");
     
     child3TXTchild.appendChild(child3TXTchildtxt);
     
