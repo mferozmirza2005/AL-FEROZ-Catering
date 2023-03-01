@@ -210,7 +210,7 @@ function footer() {
     var child3 = document.createElement("div");
     
     var child1Link1 = document.createElement("a");
-    child1Link1.href = "https://api.whatsapp.com/send/?phone=923180202325";
+    child1Link1.href = "https://api.whatsapp.com/send/?phone=xxxxxxxxxxxx";
     var child1Link2 = document.createElement("a");
     child1Link2.href = "https://www.facebook.com/Al-Feroz-Catering-107634975165501";
     
